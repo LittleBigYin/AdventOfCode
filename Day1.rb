@@ -6,7 +6,7 @@ count = 0
 arr = File.readlines('Data_Day1.rb')
 #Loop through the array and then add the value in the array (after converting to int) to the frequency
 # Then shift the count along one
-while count <= arr.length
+while count < arr.length
   frequency = (arr[count]).to_i + frequency
   count += 1
 end
